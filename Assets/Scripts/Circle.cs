@@ -6,7 +6,7 @@ public class Circle : MonoBehaviour
 {
     public float speed = (2 * Mathf.PI)/10;
     private float Theta = 0f; //starting theta
-    private int radius = 9; //radius
+    private int radius = 6; //radius
 
     void Update()
     {
