@@ -23,6 +23,6 @@ public class Pacer : MonoBehaviour
             zNew = zMin;
             direction *= -1;
         }
-        transform.position = new Vector3(7.5f, 0.75f, zNew);
+        transform.position = new Vector3(7.5f, 3.32f, zNew);
     }
 }
