@@ -1748,7 +1748,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!135 &1101773151
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3405,6 +3405,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e1528d35b62d724194e7a8c0474b9f7, type: 3}
+--- !u!1 &1884188318 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8731775834511874300, guid: 1e1528d35b62d724194e7a8c0474b9f7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1884188317}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1884188319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884188318}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49962ae9bce6598408b92e70ff41c207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetCollider: {fileID: 0}
+  countText: {fileID: 0}
+  winText: {fileID: 0}
 --- !u!1 &1891576346
 GameObject:
   m_ObjectHideFlags: 0
