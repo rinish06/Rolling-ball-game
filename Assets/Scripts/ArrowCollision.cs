@@ -5,41 +5,28 @@ using UnityEngine.UI;
 
 public class ArrowCollision : MonoBehaviour
 {
-    public Collider targetCollider;
 
-    private int count;
-    public Text countText;
-    public Text winText;
+    public GameObject counter;
+
 
 
 
     // Start is called before the first frame update
-    void Start()
-    {
-        count = 0;
-        SetCountText();
-        winText.text = "";
-
-    }
+ 
 
     private void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.CompareTag("pickup"))
+        if(collision.gameObject.CompareTag("projectile"))
         {
-            collision.gameObject.SetActive(false);
-            count = count + 1;
-            SetCountText();
+            this.gameObject.SetActive(false);
+            counter.GetComponent<CounterScript>().Counterincrementer();
+
+
+
         }
     }
 
-    void SetCountText()
-    {
-        countText.text = "Count: " + count.ToString();
-        if (count >= 14)
-        {
-            winText.text = "You Win!";
-        }
-    }
+
 }
 
 

@@ -13,6 +13,6 @@ public class Circle : MonoBehaviour
         Theta += speed * Time.deltaTime;
         float x = radius * Mathf.Sin(Theta);
         float z = radius * Mathf.Cos(Theta);
-        transform.position = new Vector3(x, 0.75f, z);
+        transform.position = new Vector3(x, 6f, z);
     }
 }
