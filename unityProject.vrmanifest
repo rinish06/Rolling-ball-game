@@ -5,7 +5,7 @@
       "app_key": "application.generated.unity.rollingball.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "D:\\VR Development\\Module 1\\Rolling Ball\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "action_manifest_path": "D:\\VR Development\\Rolling-ball-game\\Assets\\StreamingAssets\\SteamVR\\actions.json",
       "strings": {
         "en_us": {
           "name": "Rolling Ball [Testing]"
